@@ -43,7 +43,7 @@
 
 2) **Находясь в директории проекта запустим скрипт командой:**
 
-`scrapy crawl fix_price -O test_product_data.json
+`scrapy crawl fix_price -O test_product_data.json`
 
 ## Используемые инструменты
 
