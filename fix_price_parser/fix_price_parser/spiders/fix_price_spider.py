@@ -24,7 +24,7 @@ class FixpriceSpider(scrapy.Spider):
         'X-Key': 'fbd3342530f997690891b9dfb24e3a6b',
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) '
                       'Chrome/128.0.6613.120 Safari/537.36',
-        'X-City': '55'
+        'X-City': '55'  # Екатеринбург
     }
 
     def get_category_page_url(self, category, page):
